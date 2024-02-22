@@ -1,17 +1,18 @@
+package main.java.org.acme.turbospeed.model;
 
 
 /**
  * @author joaof
  * @version 1.0
- * @created 22-fev-2024 17:46:44
+ * @created 22-fev-2024 18:15:40
  */
 public class Car {
 
-	private String body;
-	private String engine;
-	private int id;
-	private String interior;
-	private String trimLevel;
+	public String body;
+	public String engine;
+	public int id;
+	public String interior;
+	public String trimLevel;
 	public Equipment m_Equipment;
 	public VehicleType m_VehicleType;
 	public VehicleBrand m_VehicleBrand;

@@ -1,13 +1,14 @@
+package main.java.org.acme.turbospeed.model;
 
 
 /**
  * @author joaof
  * @version 1.0
- * @created 22-fev-2024 17:46:43
+ * @created 22-fev-2024 18:15:40
  */
 public class Buy extends Invoice {
 
-	private double discount;
+	public double discount;
 
 	public Buy(){
 

@@ -1,14 +1,15 @@
+package main.java.org.acme.turbospeed.model;
 
 
 /**
  * @author joaof
  * @version 1.0
- * @created 22-fev-2024 17:47:01
+ * @created 22-fev-2024 18:15:40
  */
 public class VehicleType {
 
-	private String description;
-	private int id;
+	public String description;
+	public int id;
 
 	public VehicleType(){
 

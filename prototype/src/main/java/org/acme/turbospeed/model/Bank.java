@@ -1,14 +1,15 @@
+package main.java.org.acme.turbospeed.model;
 
 
 /**
  * @author joaof
  * @version 1.0
- * @created 22-fev-2024 17:46:38
+ * @created 22-fev-2024 18:15:40
  */
 public class Bank {
 
-	private double interest;
-	private String name;
+	public double interest;
+	public String name;
 
 	public Bank(){
 
