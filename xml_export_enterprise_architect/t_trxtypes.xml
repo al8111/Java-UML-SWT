@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="windows-1252" standalone="no" ?>
-<Table name="t_trxtypes" count="1"><Row><Column name="Description" value="Status"/><Column name="NumericWeight" value="1,000000"/><Column name="TRX" value="ReviewLock"/><Column name="TRX_ID" value="1"/><Column name="Style" value="Approved=0;Implemented=0;Mandatory=0;Proposed=0;Validated=0;"/></Row></Table>
