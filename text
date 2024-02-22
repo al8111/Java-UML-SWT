@@ -1,0 +1,10 @@
+The TurboSpeed car dealership offers various well-known car brands, including sedans, SUVs and electric cars. 
+A car consists of components such as engine, body and interior. The equipment and vehicle type are identified by a unique number and a description. 
+The customer can buy, lease or finance a car. Each of these processes has an invoice. There can be multiple bookings for a transaction, each with a 
+unique contract number.
+Every person, whether customer, sales advisor or financing advisor, has a name, age and address.
+
+The customer can search and sort cars based on the car brand. The customer can also search for vehicles that contain a specific 
+trim level or engine type. The customer then has the option of buying the car, leasing it or financing it with a loan. 
+The customer can seek advice from a financing advisor to find the best financing option for their needs. The company works 
+with a partner bank for loan financing. It must be possible to create and manage products and personal data.
