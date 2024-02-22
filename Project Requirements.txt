@@ -1,0 +1,63 @@
+As part of the work, you should use the text in order to Analyze requirements, design an architecture for the system described and a Implement prototype of the central use case of the system. You will do your job to Document in the form of a presentation and a video.
+ The following task description is structured along these five sub-areas.
+
+
+Phase1
+ Requirements:
+ • Find use cases in the requirement text using the verb-noun method, Classes and class attributes. Please mark this in the request text different colours. • Create a domain model based on your result. • Create a use case diagram based on your result. • Based on the use case diagram, create at least two epics and organise them the use cases. • Create at least two user stories for each of your epics. Describe the user stories with story cards.
+ Architecture:
+ Context View
+ • Create the technical and business context view for the system.
+ Rough architecture 
+• Create a slide that represents the architectural style of your high-level architecture. • Create a slide showing how your architecture maps to code should look like.
+ Technical architecture 
+• Create a two-level hierarchical decomposition of your system. • Create the Structural View for the top level of the architecture. • Also, further disassemble an important component of your system. 
+
+Set in the "Structural View" this component is to see which classes it should be composed of. • Create your sequence diagram according to the selected user story. • Create the deployment view for your system.
+
+Phase2.
+ Prototype:
+ Implement a prototype of your system that achieves at least the following points: • The domain model is implemented. This means that all relevant classes are generated.Pay attention to associations and their multiplicities, navigability, Compositions and Aggregations. • A prototype GUI for the selected user story, which you can use in the architecture as a sequence diagram (Behavioural View).
+
+Note: - You only have to implement this user story from a use case, not all other user stories. There is also no need for any further use cases from your use case diagram! • An entry-level class populates your domain model with initial data, starts the prototype and shows the GUI • The classes required for the use case are implemented.
+ - Execution of the use case is possible.
+** The GUI initially shows the initials Data status.
+** The user can make entries. 
+** This creates the data basis changed.
+** These changes are reflected in the GUI.
+ • Select an interface from the specialist architecture (Level 2).
+
+ To do this, create test cases to test this interface as completely as possible. • Create a code metrics report for your prototype. • Create documentation (JavaDoc) for your prototype. • The README file in the root folder of your repository briefly explains how to start your prototype and which prerequisites (e.g. installed Java version) apply.
+
+
+
+Hints:
+
+General information:
+
+Maintain consistency between your requirements, your models, and your implementation
+(Class names, attribute names, data types, multiplicities, method names, orders in
+sequence diagram, ...)
+Comment complicated parts of the code to increase readability.
+
+Program code and technology:
+
+You are allowed to implement your system using Java. 
+
+Commit the program code of your prototype to the main branch of your repository
+Prototype subfolder.
+
+Also add an executable version of your prototype (e.g. jar file) in the subfolder
+prototype/src/deploy.
+
+Create documentation of your code (e.g. with JavaDoc) and include that in the
+Repository in the prototype/src/main/doc subfolder.
+
+Also commit your JUnit test cases.
+
+Models:
+
+Use the Enterprise Architect to create the models.
+ Save all models in one single Enterprise Architect file. 
+ Use an appropriate packaging structure within the model.
+ After completing the tasks, commit your model to the main branch.
