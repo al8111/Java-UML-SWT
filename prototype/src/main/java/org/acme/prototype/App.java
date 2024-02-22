@@ -1,4 +1,4 @@
-package org.acme.turbospeed;
+package org.acme.prototype;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

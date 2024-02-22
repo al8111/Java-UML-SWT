@@ -1,4 +1,4 @@
-package org.acme.turbospeed;
+package org.acme.prototype;
 
 import java.io.IOException;
 import javafx.fxml.FXML;

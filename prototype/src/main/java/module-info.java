@@ -1,7 +1,7 @@
-module org.acme.turbospeed {
+module org.acme.prototype {
     requires javafx.controls;
     requires javafx.fxml;
 
-    opens org.acme.turbospeed to javafx.fxml;
-    exports org.acme.turbospeed;
+    opens org.acme.prototype to javafx.fxml;
+    exports org.acme.prototype;
 }
