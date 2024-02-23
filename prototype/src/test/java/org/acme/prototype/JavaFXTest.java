@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.acme.prototype.controller.App;
 import org.acme.prototype.model.Car;
 import org.junit.Test;
 

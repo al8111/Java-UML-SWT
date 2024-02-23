@@ -3,7 +3,7 @@ module org.acme.prototype {
     requires javafx.fxml;
 	requires javafx.graphics;
 
-    opens org.acme.prototype to javafx.fxml;
+    opens org.acme.prototype.controller to javafx.fxml;
     opens org.acme.prototype.model to javafx.base;
-    exports org.acme.prototype;
+    exports org.acme.prototype.controller;
 }

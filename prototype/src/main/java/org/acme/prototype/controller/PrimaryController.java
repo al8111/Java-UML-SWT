@@ -1,4 +1,4 @@
-package org.acme.prototype;
+package org.acme.prototype.controller;
 
 import java.io.IOException;
 import java.net.URL;
