@@ -20,6 +20,23 @@
             <artifactId>javafx-fxml</artifactId>
             <version>13</version>
         </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>13</version>
+        </dependency>
+		<dependency>
+		    <groupId>org.junit.jupiter</groupId>
+		    <artifactId>junit-jupiter-api</artifactId>
+		    <version>5.5.1</version>
+		    <scope>test</scope>
+		</dependency>
+		<dependency>
+		    <groupId>org.testfx</groupId>
+		    <artifactId>testfx-junit</artifactId>
+		    <version>4.0.18</version>
+		    <scope>test</scope>
+		</dependency>
     </dependencies>
     <build>
         <plugins>
