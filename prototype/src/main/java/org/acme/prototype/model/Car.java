@@ -1,6 +1,8 @@
 package org.acme.prototype.model;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author joaof
@@ -18,7 +20,7 @@ public class Car {
 	public VehicleType m_VehicleType;
 	public VehicleBrand m_VehicleBrand;
 	
-	public static List<Car> all;
+	public static List<Car> all = new ArrayList();
 
 	public Car(String body, String engine, int id, String interior, String trimLevel, List<Equipment> m_Equipment,
 			VehicleType m_VehicleType, VehicleBrand m_VehicleBrand) {
@@ -36,6 +38,44 @@ public class Car {
 	public void finalize() throws Throwable {
 
 	}
+	
+	
+	public int getId() {
+		return id;
+	}
+
+	public String getBody() {
+		return body;
+	}
+
+	public String getEngine() {
+		return engine;
+	}
+
+	public String getInterior() {
+		return interior;
+	}
+
+	public String getTrimLevel() {
+		return trimLevel;
+	}
+
+	public String getEquipmentAsString() {
+		return m_Equipment.stream().map(equipament -> equipament.description).collect(Collectors.joining(", "));
+	}
+
+	public String getVehicleTypeAsString() {
+		return m_VehicleType.description;
+	}
+
+	public String getVehicleBrandAsString() {
+		return m_VehicleBrand.description;
+	}
+
+	public static List<Car> getAll() {
+		return all;
+	}
+
 	public void buy(){
 
 	}

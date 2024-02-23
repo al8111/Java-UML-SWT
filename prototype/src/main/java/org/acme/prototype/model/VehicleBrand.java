@@ -8,8 +8,8 @@ package org.acme.prototype.model;
  */
 public class VehicleBrand {
 
-	private String description;
-	private int id;
+	public String description;
+	public int id;
 
 	public VehicleBrand(int id, String description) {
 		

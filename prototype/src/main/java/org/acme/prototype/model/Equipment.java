@@ -15,6 +15,13 @@ public class Equipment {
 
 	}
 
+	public Equipment(int id, String description) {
+		
+		this.id = id;
+		
+		this.description = description;
+	}
+
 	public void finalize() throws Throwable {
 
 	}
