@@ -1,0 +1,24 @@
+-classpath
+'C:/Users/joaof/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13-win.jar;C:/Users/joaof/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13.jar;C:/Users/joaof/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-win.jar;C:/Users/joaof/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar;C:/Users/joaof/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13-win.jar;C:/Users/joaof/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar;C:/Users/joaof/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-win.jar;C:/Users/joaof/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/joaof/Java-UML-SWT/prototype/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/joaof/Java-UML-SWT/prototype/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'prototype 0.0.1-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/8/docs/api' 'C:/Users/joaof/Java-UML-SWT/prototype/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'prototype 0.0.1-SNAPSHOT API'
