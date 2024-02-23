@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.acme.prototype"},{"l":"org.acme.prototype.model"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.acme.prototype.controller"},{"l":"org.acme.prototype.model"},{"l":"org.acme.prototype.view"}];updateSearchResults();

@@ -1,2 +1,3 @@
-org.acme.prototype
+org.acme.prototype.controller
 org.acme.prototype.model
+org.acme.prototype.view
