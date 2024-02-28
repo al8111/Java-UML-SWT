@@ -1,4 +1,4 @@
-package org.acme.prototype.controller;
+package org.acme.prototype.view;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-import org.acme.prototype.view.View;
+import org.acme.prototype.controller.GenerateInitialData;
 
 /**
  * JavaFX App

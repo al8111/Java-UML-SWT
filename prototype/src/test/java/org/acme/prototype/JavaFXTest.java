@@ -11,8 +11,8 @@ import javafx.stage.Stage;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.acme.prototype.controller.App;
 import org.acme.prototype.model.Car;
+import org.acme.prototype.view.App;
 import org.junit.Test;
 
 public class JavaFXTest extends ApplicationTest {
